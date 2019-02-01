@@ -42,3 +42,11 @@ function showimg9(){
   document.imgLink.src = "./image/十種競技.png";
   document.getElementById("linkArea").href = "https://www.youtube.com/watch?v=AmqiCx-6AX8";
   document.getElementById("message").innerHTML = "十種競技は十種目行い点数を競います。";}
+
+function startfnc() { 
+//関数hyoji()を1000ミリ秒間隔で呼び出す 
+  setInterval("hyoji()",1000); } 
+
+function mes() { 
+alert("9.58秒経ちました！"); 
+}
