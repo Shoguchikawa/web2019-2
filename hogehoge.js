@@ -25,3 +25,10 @@ function nazo4(){
   }else if(document.getElementById('answer4').value=='ルノーラビレニ'){alert('あたり！');
  }else if(document.getElementById('answer4').value!=='ルノー・ラビレニ')alert('はずれ！');
 }
+
+function nazo5(){
+  if(document.getElementById('answer5').value=='桐生祥秀'){
+    alert('あたり！');
+  }else if(document.getElementById('answer5').value=='きりゅうよしひで'){alert('あたり！');
+ }else if(document.getElementById('answer5').value!=='桐生祥秀')alert('はずれ！');
+}
